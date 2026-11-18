@@ -30,9 +30,9 @@ Top Free Models by Use Case
 
 You can pass any of these slugs into your model parameter: 
 
-• Heavy Reasoning & Large Context:
-	• nvidia/nemotron-3-ultra-550b-a55b:free — 550B parameter model with a massive 1M token context window.
-	• nvidia/nemotron-3.5-lightning:free — High-speed reasoning model with a 1M token context window. 
+- Heavy Reasoning & Large Context:
+-- nvidia/nemotron-3-ultra-550b-a55b:free — 550B parameter model with a massive 1M token context window.
+-- nvidia/nemotron-3.5-lightning:free — High-speed reasoning model with a 1M token context window. 
 • Vision & Multimodal (Images/Video/Audio):
 	• nvidia/nemotron-3.5-super-vl:free — Supports text, image, and video inputs with a 1M token context window.
 	• nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free — Accepts text, image, audio, and video inputs (256K context). 
