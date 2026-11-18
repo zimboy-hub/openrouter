@@ -12,7 +12,7 @@ def ask_openrouter():
         # You can specify any model available on OpenRouter 
         # (e.g., 'anthropic/claude-3.5-sonnet', 'openai/gpt-4o', or free models like 'deepseek/deepseek-chat')
         response = client.chat.completions.create(
-            model="dots-studio/dots-3-note-preview:free",  # or another model of your choice
+            model="openrouter/free",  # or another model of your choice
             messages=[
                 {"role": "system", "content": "You are a helpful AI assistant."},
                 {"role": "user", "content": "What is the integral of x^2?"}
@@ -25,6 +25,7 @@ def ask_openrouter():
         )
         
         # Print the response content
+        print("Model used ", response.model)
         print("AI Response:")
         print(response.choices[0].message.content)
 

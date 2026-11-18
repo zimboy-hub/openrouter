@@ -24,6 +24,8 @@ Instead of hardcoding your API key directly into the script, it is best practice
     The script will automatically pick it up via os.environ.get("OPENROUTER_API_KEY").
 
 # Free models available (Nov 2026)
+See https://openrouter.ai/collections/free-models
+
 Aside from Google's Gemma 4 models, OpenRouter offers around 15 to 20 free open-weights and preview models (all ending with the :free suffix), led by NVIDIA's Nemotron 3/3.5 series, Baidu's ERNIE 5.5 Flash, Dots3-Note Preview, and Cohere North Mini Code. 
 
 Top Free Models by Use Case
@@ -42,6 +44,10 @@ You can pass any of these slugs into your model parameter:
 - Coding & Lightweight Tasks:
     - cohere/north-mini-code:free — Specialized for programming tasks (256K context).
     - liquid/lfm-3-1.7b:free — Ultra-lightweight, fast model for simple text tasks (262K context).
+- Other
+    - deepseek/deepseek-v4-flash:free
+    - deepseek/deepseek-r1:free
+    - Set your model parameter to openrouter/free to let OpenRouter automatically route requests to an available free model
 
 ## Key Limits & Caveats
 
