@@ -33,19 +33,18 @@ You can pass any of these slugs into your model parameter:
 - Heavy Reasoning & Large Context:
     - nvidia/nemotron-3-ultra-550b-a55b:free — 550B parameter model with a massive 1M token context window.
     - nvidia/nemotron-3.5-lightning:free — High-speed reasoning model with a 1M token context window. 
-• Vision & Multimodal (Images/Video/Audio):
-	• nvidia/nemotron-3.5-super-vl:free — Supports text, image, and video inputs with a 1M token context window.
-	• nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free — Accepts text, image, audio, and video inputs (256K context). 
-• General Chat & Long-Form Output:
-	• dots-studio/dots-3-note-preview:free — 512K context window with high output limits and no prompt training.
-	• baidu/ernie-5.5-flash-preview:free — Fast general-purpose preview model. 
-• Coding & Lightweight Tasks:
-	• cohere/north-mini-code:free — Specialized for programming tasks (256K context).
-	• liquid/lfm-3-1.7b:free — Ultra-lightweight, fast model for simple text tasks (262K context).
+- Vision & Multimodal (Images/Video/Audio):
+    - nvidia/nemotron-3.5-super-vl:free — Supports text, image, and video inputs with a 1M token context window.
+    - nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free — Accepts text, image, audio, and video inputs (256K context). 
+- General Chat & Long-Form Output:
+    - dots-studio/dots-3-note-preview:free — 512K context window with high output limits and no prompt training.
+    - baidu/ernie-5.5-flash-preview:free — Fast general-purpose preview model. 
+- Coding & Lightweight Tasks:
+    - cohere/north-mini-code:free — Specialized for programming tasks (256K context).
+    - liquid/lfm-3-1.7b:free — Ultra-lightweight, fast model for simple text tasks (262K context).
 
 ## Key Limits & Caveats
 
-• Rate Limits: Free :free models are capped at 20 requests per minute and 50 requests per day on unfunded accounts. Purchasing at least $10 in lifetime credits raises the daily free limit to 1,000 requests per day (without spending your credits on free calls). 
-• Data Privacy: Several free providers (including NVIDIA and Liquid) may use prompts submitted to :free endpoints to train their models. Avoid sending sensitive code or private data.
-• Rotation: OpenRouter regularly rotates preview models in and out. You can verify live availability anytime on the OpenRouter Free Models Collection.
-What is your primary use case (such as coding, multimodal vision, or general chat), so I can recommend the most reliable model slug and help you set up fallback routing?
+- Rate Limits: Free :free models are capped at 20 requests per minute and 50 requests per day on unfunded accounts. Purchasing at least $10 in lifetime credits raises the daily free limit to 1,000 requests per day (without spending your credits on free calls). 
+- Data Privacy: Several free providers (including NVIDIA and Liquid) may use prompts submitted to :free endpoints to train their models. Avoid sending sensitive code or private data.
+- Rotation: OpenRouter regularly rotates preview models in and out. You can verify live availability anytime on the OpenRouter Free Models Collection.
