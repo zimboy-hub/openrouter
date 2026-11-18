@@ -14,6 +14,7 @@ Originally founded in 2023, OpenRouter was acquired by Stripe in 2026 to help sc
 To access OpenRouter in Python, the easiest and cleanest way is to use the official openai library. Because OpenRouter is fully compatible with the OpenAI API format, you only need to change your base_url to point to OpenRouter's servers and provide your OpenRouter API key.
 
 Install the OpenAI library
+
 pip install openai
 
 ## Pro-Tip: Managing your API Key securely
